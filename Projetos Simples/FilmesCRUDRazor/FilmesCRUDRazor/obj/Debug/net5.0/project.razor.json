@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\FilmesCRUDRazor.csproj",
+  "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\FilmesCRUDRazor.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,63 +15603,63 @@
   "RootNamespace": "FilmesCRUDRazor",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\Pages\\Filmes\\Edit.cshtml",
-      "TargetPath": "Pages\\Filmes\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\Pages\\Index.cshtml",
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\Pages\\Filmes\\Index.cshtml",
-      "TargetPath": "Pages\\Filmes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\Pages\\Filmes\\Delete.cshtml",
-      "TargetPath": "Pages\\Filmes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\Pages\\Filmes\\Create.cshtml",
-      "TargetPath": "Pages\\Filmes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\Pages\\Filmes\\Details.cshtml",
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\Filmes\\Create.cshtml",
+      "TargetPath": "Pages\\Filmes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\Filmes\\Details.cshtml",
       "TargetPath": "Pages\\Filmes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\Filmes\\Edit.cshtml",
+      "TargetPath": "Pages\\Filmes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\Filmes\\Delete.cshtml",
+      "TargetPath": "Pages\\Filmes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\Filmes\\Index.cshtml",
+      "TargetPath": "Pages\\Filmes\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

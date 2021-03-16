@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DI7uKggoGiHrd+AaEU/BTqWR4qE4pBpawK76aNxKhpoIrxkTd6GaCdlRv5PZLkTHN4dKPpnjITu6+doauBCxvA==",
+  "dgSpecHash": "Nd2PlLYkq8pfDpKFG9DbBLylCs5MxT/n77s4Vn9/c4ove75XRqcAvLnYNqI68X+hIeTFVp1BcPUXC8gBlkjmEA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\FilmesCRUDRazor.csproj",
+  "projectFilePath": "C:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\FilmesCRUDRazor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexandre\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Alexandre\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

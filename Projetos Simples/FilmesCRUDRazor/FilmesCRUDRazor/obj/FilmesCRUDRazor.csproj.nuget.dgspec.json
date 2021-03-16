@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\FilmesCRUDRazor.csproj": {}
+    "C:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\FilmesCRUDRazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\FilmesCRUDRazor.csproj": {
+    "C:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\FilmesCRUDRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\FilmesCRUDRazor.csproj",
+        "projectUniqueName": "C:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\FilmesCRUDRazor.csproj",
         "projectName": "FilmesCRUDRazor",
-        "projectPath": "C:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\FilmesCRUDRazor.csproj",
+        "projectPath": "C:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\FilmesCRUDRazor.csproj",
         "packagesPath": "C:\\Users\\Alexandre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexandre\\Documents\\Projetos e Tutoriais C#\\tutorial_iniciante1\\src\\FilmesCRUDRazor\\obj\\",
+        "outputPath": "C:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alexandre\\AppData\\Roaming\\NuGet\\NuGet.Config",
