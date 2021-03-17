@@ -8,19 +8,20 @@ namespace FilmesCRUDRazor.Models
     {
         public int FilmeId { get; set; }
         [Display(Name = "Título")]
-        [Required]
+        [Required(ErrorMessage = "Obrigatório o nome do filme")]
         public string Titulo { get; set; }
 
         [Display(Name = "Data de Lançamento")]
-        [DisplayFormat(DataFormatString = "{0: dd/MM/yyyy}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0: dd/MM/yyyy}", ApplyFormatInEditMode = true )]
+        [Required(ErrorMessage = "Digite uma data válida")]
         public DateTime DataLancamento { get; set; }
 
         [Display(Name = "Gênero")]
-        [Required]
+        [Required(ErrorMessage = "Escreva o gênero do filme")]
         public string Genero { get; set; }
 
         [Display(Name = "Preço")]
-        [DataType(DataType.Currency)]
+        [DataType(DataType.Currency, ErrorMessage = "Deve ser valor monetário")]
         [Column(TypeName = "decimal(18,2)")]
         public decimal Preco { get; set; }
     }
