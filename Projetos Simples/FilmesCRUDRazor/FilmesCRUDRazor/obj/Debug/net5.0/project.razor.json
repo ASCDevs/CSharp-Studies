@@ -15633,6 +15633,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\Sobre\\Index.cshtml",
+      "TargetPath": "Pages\\Sobre\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Alexandre\\Documents\\Projetos GIT\\C# Studies\\Projetos Simples\\FilmesCRUDRazor\\FilmesCRUDRazor\\Pages\\Filmes\\Details.cshtml",
       "TargetPath": "Pages\\Filmes\\Details.cshtml",
       "FileKind": "mvc"

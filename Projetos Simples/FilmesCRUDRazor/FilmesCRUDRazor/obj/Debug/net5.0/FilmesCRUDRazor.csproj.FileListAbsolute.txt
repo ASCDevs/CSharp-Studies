@@ -360,3 +360,4 @@ C:\Users\Alexandre\Documents\Projetos GIT\C# Studies\Projetos Simples\FilmesCRUD
 C:\Users\Alexandre\Documents\Projetos GIT\C# Studies\Projetos Simples\FilmesCRUDRazor\FilmesCRUDRazor\obj\Debug\net5.0\ref\FilmesCRUDRazor.dll
 C:\Users\Alexandre\Documents\Projetos GIT\C# Studies\Projetos Simples\FilmesCRUDRazor\FilmesCRUDRazor\obj\Debug\net5.0\FilmesCRUDRazor.pdb
 C:\Users\Alexandre\Documents\Projetos GIT\C# Studies\Projetos Simples\FilmesCRUDRazor\FilmesCRUDRazor\obj\Debug\net5.0\FilmesCRUDRazor.genruntimeconfig.cache
+C:\Users\Alexandre\Documents\Projetos GIT\C# Studies\Projetos Simples\FilmesCRUDRazor\FilmesCRUDRazor\obj\Debug\net5.0\Razor\Pages\Sobre\Index.cshtml.g.cs

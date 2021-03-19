@@ -4,6 +4,9 @@
 @{
     ViewData["Title"] = "Index";
 }
+@{
+    Layout = "_Layout";
+}
 
 <div class="container">
     <div class="row">
@@ -14,6 +17,25 @@
                     <i class="fas fa-plus"></i> Adicionar Filme
                 </a>
             </p>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="text-left">Gêneros: </label>
+                        <select class="form-control" asp-for="FilmePorGenero" asp-items="Model.Generos">
+                            <option value="">Todos - Gêneros</option>
+                        </select>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="text-left">Título do filme</label>
+                        <input type="text" class="form-control" name="BuscaPorGeneroNome" />
+                        <br />
+                        <button class="btn btn-primary" type="submit" value="Filtrar">Filtrar</button>
+                    </div>
+                </div>
+            </form>
             <div class="talbe-responsive">
                 <table class="table table-striped">
                     <thead>

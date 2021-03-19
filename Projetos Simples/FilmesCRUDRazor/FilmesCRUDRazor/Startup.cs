@@ -30,6 +30,9 @@ namespace FilmesCRUDRazor
             services.AddRazorPages();
             
             services.AddDbContext<FilmeContext>( options => options.UseSqlite(Configuration.GetConnectionString("FilmeContext")));
+
+            services.AddDbContext<RazorPagesSobreContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("RazorPagesSobreContext")));
         }
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
