@@ -2,7 +2,7 @@ using System;
 
 namespace SimpleFactory{
     //Define-se como 'sealed' pois assim ninguém herda desta classe
-    public sealed class CakeSimpleFactoryFactory{
+    public sealed class CakeSimpleFactory{
         public static Cake CreateCake(string selected){
             Cake cake;
             if(selected.Equals("1")){
