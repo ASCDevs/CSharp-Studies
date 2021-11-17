@@ -8,5 +8,6 @@ namespace Classes
 {
     class Endereco
     {
+        private int idEndereco { get; set; }
     }
 }
