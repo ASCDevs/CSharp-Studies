@@ -4,9 +4,15 @@ namespace GeekShopping.ProductAPI.Model.Context
 {
     public class SQLServerContext : DbContext
     {
-        public SQLServerContext(){ }
+        protected readonly IConfiguration _configuration;
+        public SQLServerContext(IConfiguration configuration){ 
+            _configuration = configuration;
+        }
 
-        public SQLServerContext(DbContextOptions<SQLServerContext> options) : base(options) { }
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        {
+            options.UseSqlServer(_configuration.GetConnectionString("DefaultConnection"));
+        }
 
         public DbSet<Product> Products { get; set;}
     }
