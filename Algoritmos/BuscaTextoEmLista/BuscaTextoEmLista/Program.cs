@@ -15,62 +15,70 @@ public class Aplicacao()
     }
 }
 
-public class TesteEstruturaCategoria : TestesCategoriaGeral
+public class TesteEstruturaCategoria
 {
     
-    
-
-    [Benchmark]
-    [Arguments("ELETRONICOS_CAT12")]
-    [Arguments("MOVEIS_CAT10")]
-    [Arguments("ALIMENTOS_CAT5")]
-    [Arguments("ROUPAS_CAT98")]
-    public override void BuscarCategoriaPorTexto(string categoria)
+    //[Benchmark]
+    //[Arguments("ELETRONICOS_CAT0")]
+    //[Arguments("MOVEIS_CAT273")]
+    //[Arguments("ALIMENTOS_412")]
+    //[Arguments("ROUPAS_CAT499")]
+    public void ChecarSeCategoriaExiste(string categoria)
     {
-        Thread.Sleep(200);
+        EstruturaCategorias.ChecarSeCategoriaExiste(categoria);
+    }
+
+    //[Benchmark]
+    //[Arguments(2)]
+    //[Arguments(782)]
+    //[Arguments(1200)]
+    //[Arguments(1998)]
+    public bool ChecarSeIdCategoriaExiste(int IdCategoria)
+    {
+        return EstruturaCategorias.ChecarSeIdCategoriaExiste(IdCategoria);
+    }
+
+    //[Benchmark]
+    //[Arguments(2)]
+    //[Arguments(782)]
+    //[Arguments(1200)]
+    //[Arguments(1998)]
+    public bool ChecarSeIdCategoriaExisteFromDictionary(int idCategoria)
+    {
+        return EstruturaCategorias.ChecarSeIdCategoriaExisteFromDictionary(idCategoria);
     }
 
     [Benchmark]
-    [Arguments("ELETRONICOS_CAT12")]
-    [Arguments("MOVEIS_CAT10")]
-    [Arguments("ALIMENTOS_CAT5")]
-    [Arguments("ROUPAS_CAT98")]
-    public override int BuscarIdCategoriaPorTexto(string categoria)
+    [Arguments(TipoDepartamento.Roupas, 1998)]
+    [Arguments(TipoDepartamento.Moveis, 782)]
+    [Arguments(TipoDepartamento.Alimentos,1200)]
+    [Arguments(TipoDepartamento.Eletronicos,2)]
+    [Arguments(TipoDepartamento.NaoDefinido,1998)]
+    [Arguments(TipoDepartamento.NaoDefinido,782)]
+    [Arguments(TipoDepartamento.NaoDefinido,1200)]
+    [Arguments(TipoDepartamento.NaoDefinido,2)]
+    public bool IdCategoriaPertenceAoDepartamento(TipoDepartamento departamento, int idCategoria)
     {
-        Thread.Sleep(300);
-        return 0;
+        return EstruturaCategorias.IdCategoriaPertenceAoDepartamento(departamento, idCategoria);
     }
 
-    public override bool CategoriaPetenceAoDepartamento(TipoDepartamento departamento, string categoria)
+    [Benchmark]
+    [Arguments(TipoDepartamento.Roupas, 1998)]
+    [Arguments(TipoDepartamento.Moveis, 782)]
+    [Arguments(TipoDepartamento.Alimentos, 1200)]
+    [Arguments(TipoDepartamento.Eletronicos, 2)]
+    [Arguments(TipoDepartamento.NaoDefinido, 1998)]
+    [Arguments(TipoDepartamento.NaoDefinido, 782)]
+    [Arguments(TipoDepartamento.NaoDefinido, 1200)]
+    [Arguments(TipoDepartamento.NaoDefinido, 2)]
+    public bool IdCategoriaPertenceAoDepartamentoFromDictionary(TipoDepartamento departamento, int idCategoria)
     {
-        throw new NotImplementedException();
+        return EstruturaCategorias.IdCategoriaPertenceAoDepartamentoFromDictionary(departamento, idCategoria);
     }
 
-    public override bool ChecarSeCategoriaExiste(string categoria)
-    {
-        throw new NotImplementedException();
-    }
-
-    public override bool ChecarSeIdCategoriaExiste(int idCategoria)
-    {
-        throw new NotImplementedException();
-    }
-
-    public override bool IdCategoriaPertenceAoDepartamento(TipoDepartamento departamento, int idCategoria)
-    {
-        throw new NotImplementedException();
-    }
 }
 
-public abstract class TestesCategoriaGeral
-{
-    public abstract bool ChecarSeCategoriaExiste(string categoria);
-    public abstract bool ChecarSeIdCategoriaExiste(int idCategoria);
-    public abstract void BuscarCategoriaPorTexto(string categoria);
-    public abstract int BuscarIdCategoriaPorTexto(string categoria);
-    public abstract bool CategoriaPetenceAoDepartamento(TipoDepartamento departamento, string categoria);
-    public abstract bool IdCategoriaPertenceAoDepartamento(TipoDepartamento departamento, int idCategoria);
-}
+
 
 
 
